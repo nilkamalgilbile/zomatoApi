@@ -41,8 +41,8 @@
 
 > Details of Restaurant
 
-- http://localhost:9120/details/64b016a1219e9120d84d0c58
-- https://zomatoapi-6nsl.onrender.com/details/64b016a1219e9120d84d0c58
+- http://localhost:9120/details/2
+- https://zomatoapi-6nsl.onrender.com/2
 
   > Menu of restaurant
 
