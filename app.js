@@ -72,7 +72,7 @@ app.get("/filter/:mealId", async (req, res) => {
       $and: [{ cost: { $gt: lcost, $lt: hcost } }],
     };
   } else {
-    query = {};
+    query = { "mealTypes.mealtype_id": mealId };
   }
   let collection = "restaurants";
   let output = await getData(collection, query);
